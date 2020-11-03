@@ -13,8 +13,705 @@
     <list default="true" id="e79d42f1-13bc-4197-88fb-21e5f03da6ca" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ML-Racing/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ML-Racing/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ML-Racing/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ML-Racing/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ML-Racing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ML-Racing/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Editor/DisableBurstFromMenu.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Editor/DisableBurstFromMenu.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Editor/Tests.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Editor/Tests/StandaloneBuildTest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Editor/Tests/StandaloneBuildTest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/Demos.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/Demos/Expert3DBall.demo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/Demos/Expert3DBall.demo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/Demos/Expert3DBallHard.demo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/Demos/Expert3DBallHard.demo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/Prefabs/3DBall.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/Prefabs/3DBall.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/Prefabs/3DBallHardNew.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/Prefabs/3DBallHardNew.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/Scenes/3DBall.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/Scenes/3DBall.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/Scenes/3DBallHard.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/Scenes/3DBallHard.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/Scripts/Ball3DAgent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/Scripts/Ball3DAgent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/Scripts/Ball3DHardAgent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/Scripts/Ball3DHardAgent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/TFModels.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/TFModels/3DBall.nn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/TFModels/3DBall.nn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/TFModels/3DBallHard.nn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/TFModels/3DBallHard.nn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Basic.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Basic/Demos.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Basic/Demos/ExpertBasic.demo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Basic/Demos/ExpertBasic.demo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Basic/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Basic/Prefabs/Basic.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Basic/Prefabs/Basic.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Basic/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Basic/Scenes/Basic.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Basic/Scenes/Basic.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Basic/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Basic/Scripts/BasicActuatorComponent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Basic/Scripts/BasicActuatorComponent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Basic/Scripts/BasicController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Basic/Scripts/BasicController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Basic/Scripts/BasicSensorComponent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Basic/Scripts/BasicSensorComponent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Basic/TFModels.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Basic/TFModels/Basic.nn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Basic/TFModels/Basic.nn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Bouncer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Bouncer/Demos.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Bouncer/Demos/ExpertBouncer.demo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Bouncer/Demos/ExpertBouncer.demo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Bouncer/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Bouncer/Prefabs/Environment.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Bouncer/Prefabs/Environment.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Bouncer/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Bouncer/Scenes/Bouncer.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Bouncer/Scenes/Bouncer.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Bouncer/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Bouncer/Scripts/BouncerAgent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Bouncer/Scripts/BouncerAgent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Bouncer/Scripts/BouncerTarget.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Bouncer/Scripts/BouncerTarget.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Bouncer/TFModels.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Bouncer/TFModels/Bouncer.nn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Bouncer/TFModels/Bouncer.nn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/Demos.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/Demos/ExpCrawlerDynVS.demo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/Demos/ExpCrawlerDynVS.demo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/Demos/ExpCrawlerStaVS.demo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/Demos/ExpCrawlerStaVS.demo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/Demos/ExpertCrawlerDyn.demo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/Demos/ExpertCrawlerDyn.demo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/Demos/ExpertCrawlerSta.demo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/Demos/ExpertCrawlerSta.demo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/Prefabs/CrawlerBase.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/Prefabs/CrawlerBase.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/Prefabs/DynamicPlatform.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/Prefabs/DynamicPlatform.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/Scenes/CrawlerDynamicTarget.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/Scenes/CrawlerDynamicTarget.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/Scenes/CrawlerDynamicVariableSpeed.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/Scenes/CrawlerDynamicVariableSpeed.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/Scenes/CrawlerStaticTarget.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/Scenes/CrawlerStaticTarget.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/Scenes/CrawlerStaticVariableSpeed.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/Scenes/CrawlerStaticVariableSpeed.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/Scripts/CrawlerAgent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/Scripts/CrawlerAgent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/TFModels.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/TFModels/CrawlerDynamic.nn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/TFModels/CrawlerDynamic.nn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/TFModels/CrawlerDynamicVariableSpeed.nn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/TFModels/CrawlerDynamicVariableSpeed.nn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/TFModels/CrawlerStatic.nn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/TFModels/CrawlerStatic.nn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/TFModels/CrawlerStaticVariableSpeed.nn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/TFModels/CrawlerStaticVariableSpeed.nn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/FoodCollector.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/FoodCollector/Demos.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/FoodCollector/Demos/ExpertFood.demo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/FoodCollector/Demos/ExpertFood.demo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/FoodCollector/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/FoodCollector/Materials/lazer.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/FoodCollector/Materials/lazer.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/FoodCollector/Meshes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/FoodCollector/Meshes/Court.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/FoodCollector/Meshes/Court.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/FoodCollector/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/FoodCollector/Prefabs/BadFood.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/FoodCollector/Prefabs/BadFood.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/FoodCollector/Prefabs/Food.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/FoodCollector/Prefabs/Food.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/FoodCollector/Prefabs/FoodCollectorArea.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/FoodCollector/Prefabs/FoodCollectorArea.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/FoodCollector/Prefabs/GridFoodCollectorArea.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/FoodCollector/Prefabs/GridFoodCollectorArea.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/FoodCollector/Prefabs/VisualFoodCollectorArea.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/FoodCollector/Prefabs/VisualFoodCollectorArea.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/FoodCollector/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/FoodCollector/Scenes/FoodCollector.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/FoodCollector/Scenes/FoodCollector.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/FoodCollector/Scenes/GridFoodCollector.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/FoodCollector/Scenes/GridFoodCollector.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/FoodCollector/Scenes/VisualFoodCollector.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/FoodCollector/Scenes/VisualFoodCollector.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/FoodCollector/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/FoodCollector/Scripts/FoodCollectorAgent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/FoodCollector/Scripts/FoodCollectorAgent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/FoodCollector/Scripts/FoodCollectorArea.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/FoodCollector/Scripts/FoodCollectorArea.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/FoodCollector/Scripts/FoodCollectorSettings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/FoodCollector/Scripts/FoodCollectorSettings.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/FoodCollector/Scripts/FoodLogic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/FoodCollector/Scripts/FoodLogic.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/FoodCollector/TFModels.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/FoodCollector/TFModels/FoodCollector.nn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/FoodCollector/TFModels/FoodCollector.nn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/FoodCollector/TFModels/GridFoodCollector.nn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/FoodCollector/TFModels/GridFoodCollector.nn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/GridWorld.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/GridWorld/Demos.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/GridWorld/Demos/ExpertGrid.demo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/GridWorld/Demos/ExpertGrid.demo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/GridWorld/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/GridWorld/Prefabs/Area.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/GridWorld/Prefabs/Area.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/GridWorld/Prefabs/agentRenderTexture.renderTexture" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/GridWorld/Prefabs/agentRenderTexture.renderTexture.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/GridWorld/Prefabs/goal.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/GridWorld/Prefabs/goal.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/GridWorld/Prefabs/pit.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/GridWorld/Prefabs/pit.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/GridWorld/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/GridWorld/Scenes/GridWorld.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/GridWorld/Scenes/GridWorld.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/GridWorld/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/GridWorld/Scripts/GridAgent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/GridWorld/Scripts/GridAgent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/GridWorld/Scripts/GridArea.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/GridWorld/Scripts/GridArea.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/GridWorld/Scripts/GridSettings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/GridWorld/Scripts/GridSettings.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/GridWorld/TFModels.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/GridWorld/TFModels/GridWorld.nn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/GridWorld/TFModels/GridWorld.nn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Hallway.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Hallway/Demos.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Hallway/Demos/ExpertHallway.demo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Hallway/Demos/ExpertHallway.demo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Hallway/Meshes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Hallway/Meshes/Ground.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Hallway/Meshes/Ground.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Hallway/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Hallway/Prefabs/SymbolFinderArea.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Hallway/Prefabs/SymbolFinderArea.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Hallway/Prefabs/VisualSymbolFinderArea.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Hallway/Prefabs/VisualSymbolFinderArea.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Hallway/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Hallway/Scenes/Hallway.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Hallway/Scenes/Hallway.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Hallway/Scenes/VisualHallway.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Hallway/Scenes/VisualHallway.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Hallway/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Hallway/Scripts/HallwayAgent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Hallway/Scripts/HallwayAgent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Hallway/Scripts/HallwaySettings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Hallway/Scripts/HallwaySettings.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Hallway/TFModels.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Hallway/TFModels/Hallway.nn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Hallway/TFModels/Hallway.nn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/PushBlock.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/PushBlock/Demos.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/PushBlock/Demos/ExpertPush.demo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/PushBlock/Demos/ExpertPush.demo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/PushBlock/Meshes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/PushBlock/Meshes/PushBlockCourt.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/PushBlock/Meshes/PushBlockCourt.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/PushBlock/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/PushBlock/Prefabs/PushBlockArea.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/PushBlock/Prefabs/PushBlockArea.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/PushBlock/Prefabs/PushBlockVisualArea.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/PushBlock/Prefabs/PushBlockVisualArea.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/PushBlock/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/PushBlock/Scenes/PushBlock.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/PushBlock/Scenes/PushBlock.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/PushBlock/Scenes/VisualPushBlock.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/PushBlock/Scenes/VisualPushBlock.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/PushBlock/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/PushBlock/Scripts/GoalDetect.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/PushBlock/Scripts/GoalDetect.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/PushBlock/Scripts/PushAgentBasic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/PushBlock/Scripts/PushAgentBasic.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/PushBlock/Scripts/PushBlockSettings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/PushBlock/Scripts/PushBlockSettings.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/PushBlock/TFModels.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/PushBlock/TFModels/PushBlock.nn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/PushBlock/TFModels/PushBlock.nn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/Demos.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/Demos/ExpertPyramid.demo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/Demos/ExpertPyramid.demo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/Meshes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/Meshes/CruciformWall.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/Meshes/CruciformWall.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/Meshes/SideWalls.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/Meshes/SideWalls.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/Meshes/SpawnAreas.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/Meshes/SpawnAreas.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/Meshes/Switch.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/Meshes/Switch.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/Meshes/Walls.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/Meshes/Walls.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/Prefabs/AreaPB.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/Prefabs/AreaPB.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/Prefabs/BrickPyramid.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/Prefabs/BrickPyramid.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/Prefabs/StonePyramid.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/Prefabs/StonePyramid.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/Prefabs/VisualAreaPyramids.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/Prefabs/VisualAreaPyramids.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/Scenes/Pyramids.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/Scenes/Pyramids.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/Scenes/VisualPyramids.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/Scenes/VisualPyramids.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/Scripts/PyramidAgent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/Scripts/PyramidAgent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/Scripts/PyramidArea.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/Scripts/PyramidArea.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/Scripts/PyramidSwitch.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/Scripts/PyramidSwitch.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/TFModels.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/TFModels/Pyramids.nn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/TFModels/Pyramids.nn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Reacher.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Reacher/Demos.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Reacher/Demos/ExpertReacher.demo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Reacher/Demos/ExpertReacher.demo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Reacher/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Reacher/Materials/Goal_Lit.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Reacher/Materials/Goal_Lit.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Reacher/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Reacher/Prefabs/Agent.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Reacher/Prefabs/Agent.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Reacher/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Reacher/Scenes/Reacher.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Reacher/Scenes/Reacher.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Reacher/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Reacher/Scripts/ReacherAgent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Reacher/Scripts/ReacherAgent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Reacher/Scripts/ReacherGoal.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Reacher/Scripts/ReacherGoal.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Reacher/TFModels.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Reacher/TFModels/Reacher.nn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Reacher/TFModels/Reacher.nn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/AgentBlue.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/AgentBlue.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/AgentPurple.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/AgentPurple.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/BallMat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/BallMat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/Black.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/Black.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/Checkers_Ball.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/Checkers_Ball.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/Checkers_Gray.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/Checkers_Gray.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/Eye.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/Eye.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/GrayMiddle.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/GrayMiddle.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/Green.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/Green.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/GridMat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/GridMat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/GridMatBall.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/GridMatBall.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/GridMatFloor.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/GridMatFloor.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/GridMatHallway.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/GridMatHallway.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/GridMatMoveable.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/GridMatMoveable.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/GridPatternShader.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/GridPatternShader.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/Headband.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/Headband.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/LightGreen.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/LightGreen.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/LightRed.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/LightRed.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/LogoSymbol.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/LogoSymbol.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/Net.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/Net.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/Orange.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/Orange.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/Outline.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/Outline.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/Purple.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/Purple.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/Red.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/Red.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/ShaderOutline.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/ShaderOutline.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/ShaderRadialGrid.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/ShaderRadialGrid.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/Textures/CheckersGray_BC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/Textures/CheckersGray_BC.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/Textures/Checkers_CO.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/Textures/Checkers_CO.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/Textures/Checkers_NO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/Textures/Checkers_NO.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/Textures/LogoCube.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/Textures/LogoCube.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/Textures/NetAL.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/Textures/NetAL.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/Textures/UnityLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/Textures/UnityLogo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/Textures/gridTexture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/Textures/gridTexture.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/UIDefault.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/UIDefault.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/White.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/White.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/Yellow.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Materials/Yellow.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Meshes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Meshes/AgentCube.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Meshes/AgentCube.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Meshes/LongNarrowPlatform.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Meshes/LongNarrowPlatform.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Meshes/LongPlatform.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Meshes/LongPlatform.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Meshes/symbol_circle.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Meshes/symbol_circle.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Meshes/symbol_star.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Meshes/symbol_star.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Meshes/symbol_tri.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Meshes/symbol_tri.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Meshes/symbol_x.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Meshes/symbol_x.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Prefabs/AgentCubeBeveled_Blue.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Prefabs/AgentCubeBeveled_Blue.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Prefabs/AgentCubeBeveled_Purple.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Prefabs/AgentCubeBeveled_Purple.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Prefabs/AgentCubeWithCamera_Blue.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Prefabs/AgentCubeWithCamera_Blue.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Prefabs/AgentCubeWithCamera_Purple.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Prefabs/AgentCubeWithCamera_Purple.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Prefabs/AgentCube_Blue.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Prefabs/AgentCube_Blue.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Prefabs/AgentCube_Purple.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Prefabs/AgentCube_Purple.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Prefabs/Canvas_Watermark.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Prefabs/Canvas_Watermark.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Prefabs/DirectionIndicator.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Prefabs/DirectionIndicator.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Prefabs/Directional_Light.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Prefabs/Directional_Light.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Prefabs/DynamicTargetPlatform.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Prefabs/DynamicTargetPlatform.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Prefabs/Logo-PlaneMesh-BLACK.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Prefabs/Logo-PlaneMesh-BLACK.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Prefabs/Logo-PlaneMesh-GRAY.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Prefabs/Logo-PlaneMesh-GRAY.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Prefabs/Logo-PlaneMesh-WHITE.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Prefabs/Logo-PlaneMesh-WHITE.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Prefabs/OrientationCube.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Prefabs/OrientationCube.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Prefabs/PlatformDynamicTarget.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Prefabs/PlatformDynamicTarget.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Prefabs/Platforms.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Prefabs/Platforms/LongPlatform.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Prefabs/Platforms/LongPlatform.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Prefabs/Symbol_O.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Prefabs/Symbol_O.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Prefabs/Symbol_Star.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Prefabs/Symbol_Star.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Prefabs/Symbol_Triangle.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Prefabs/Symbol_Triangle.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Prefabs/Symbol_X.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Prefabs/Symbol_X.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Prefabs/Targets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Prefabs/Targets/DynamicTarget.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Prefabs/Targets/DynamicTarget.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Prefabs/Targets/StaticTarget.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Prefabs/Targets/StaticTarget.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Scripts/AdjustTrainingTimescale.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Scripts/AdjustTrainingTimescale.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Scripts/Area.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Scripts/Area.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Scripts/CameraFollow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Scripts/CameraFollow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Scripts/DirectionIndicator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Scripts/DirectionIndicator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Scripts/FlyCamera.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Scripts/FlyCamera.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Scripts/GroundContact.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Scripts/GroundContact.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Scripts/JointDriveController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Scripts/JointDriveController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Scripts/ModelOverrider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Scripts/ModelOverrider.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Scripts/Monitor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Scripts/Monitor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Scripts/OrientationCubeController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Scripts/OrientationCubeController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Scripts/ProjectSettingsOverrides.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Scripts/ProjectSettingsOverrides.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Scripts/SensorBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Scripts/SensorBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Scripts/TargetContact.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Scripts/TargetContact.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Scripts/TargetController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/SharedAssets/Scripts/TargetController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Materials/ClearPlastic.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Materials/ClearPlastic.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Materials/Physic_Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Materials/Physic_Materials/Bouncy.physicMaterial" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Materials/Physic_Materials/Bouncy.physicMaterial.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Materials/Physic_Materials/NoFriction.physicMaterial" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Materials/Physic_Materials/NoFriction.physicMaterial.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Materials/Physic_Materials/reducedFriction.physicMaterial" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Materials/Physic_Materials/reducedFriction.physicMaterial.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Materials/Physic_Materials/rollyCubeFriction.physicMaterial" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Materials/Physic_Materials/rollyCubeFriction.physicMaterial.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Materials/Physic_Materials/zeroFriction.physicMaterial" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Materials/Physic_Materials/zeroFriction.physicMaterial.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Materials/SoccerBall.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Materials/SoccerBall.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Materials/SoccerPitch.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Materials/SoccerPitch.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Materials/SoccerPitchAL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Materials/SoccerPitchAL.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Materials/SoccerSky.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Materials/SoccerSky.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Materials/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Materials/Textures/BallAL.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Materials/Textures/BallAL.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Materials/Textures/SoccerPitchGray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Materials/Textures/SoccerPitchGray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Materials/Textures/SoccerPitchGreen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Materials/Textures/SoccerPitchGreen.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Meshes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Meshes/Ball.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Meshes/Ball.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Meshes/Pitch.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Meshes/Pitch.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Prefabs/SoccerBall.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Prefabs/SoccerBall/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Prefabs/SoccerBall/Materials/Black-Ball-Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Prefabs/SoccerBall/Materials/Black-Ball-Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Prefabs/SoccerBall/Materials/White-Ball-Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Prefabs/SoccerBall/Materials/White-Ball-Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Prefabs/SoccerBall/Meshes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Prefabs/SoccerBall/Meshes/SoccerBallMesh.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Prefabs/SoccerBall/Meshes/SoccerBallMesh.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Prefabs/SoccerBall/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Prefabs/SoccerBall/Prefabs/SoccerBall.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Prefabs/SoccerBall/Prefabs/SoccerBall.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Prefabs/SoccerBall/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Prefabs/SoccerBall/Textures/SoccerBallNormalMap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Prefabs/SoccerBall/Textures/SoccerBallNormalMap.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Prefabs/SoccerFieldTwos.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Prefabs/SoccerFieldTwos.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Prefabs/StrikersVsGoalieField.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Prefabs/StrikersVsGoalieField.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Scenes/SoccerTwos.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Scenes/SoccerTwos.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Scenes/StrikersVsGoalie.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Scenes/StrikersVsGoalie.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Scripts/AgentSoccer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Scripts/AgentSoccer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Scripts/SoccerBallController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Scripts/SoccerBallController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Scripts/SoccerFieldArea.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Scripts/SoccerFieldArea.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Scripts/SoccerSettings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Scripts/SoccerSettings.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/TFModels.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/TFModels/Goalie.nn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/TFModels/Goalie.nn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/TFModels/SoccerTwos.nn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/TFModels/SoccerTwos.nn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/TFModels/Striker.nn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/TFModels/Striker.nn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Startup.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Startup/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Startup/Scripts/Startup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Startup/Scripts/Startup.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Startup/Startup.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Startup/Startup.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Template.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Template/AgentPrefabsAndColors.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Template/AgentPrefabsAndColors.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Template/Scene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Template/Scene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Template/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Template/Scripts/TemplateAgent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Template/Scripts/TemplateAgent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Demos.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Demos/ExpertTennis.demo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Demos/ExpertTennis.demo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Materials/Physic_Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Materials/Physic_Materials/ballMat.physicMaterial" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Materials/Physic_Materials/ballMat.physicMaterial.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Materials/Physic_Materials/bounce.physicMaterial" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Materials/Physic_Materials/bounce.physicMaterial.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Materials/Physic_Materials/racketMat.physicMaterial" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Materials/Physic_Materials/racketMat.physicMaterial.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Materials/TennisCourt.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Materials/TennisCourt.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Materials/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Materials/Textures/RacketNO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Materials/Textures/RacketNO.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Materials/Textures/TennisCourtAL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Materials/Textures/TennisCourtAL.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Prefabs/Meshes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Prefabs/Meshes/Racket.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Prefabs/Meshes/Racket.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Prefabs/Meshes/TennisCourt.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Prefabs/Meshes/TennisCourt.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Prefabs/TennisArea.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Prefabs/TennisArea.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Scenes/Tennis.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Scenes/Tennis.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Scripts/HitWall.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Scripts/HitWall.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Scripts/TennisAgent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Scripts/TennisAgent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Scripts/TennisArea.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Scripts/TennisArea.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/TFModels.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/TFModels/Tennis.nn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/TFModels/Tennis.nn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/Demos.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/Demos/ExpertWalkerDy.demo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/Demos/ExpertWalkerDy.demo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/Demos/ExpertWalkerDyVS.demo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/Demos/ExpertWalkerDyVS.demo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/Demos/ExpertWalkerStVS.demo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/Demos/ExpertWalkerStVS.demo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/Demos/ExpertWalkerSta.demo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/Demos/ExpertWalkerSta.demo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/Materials/WalkerCourt.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/Materials/WalkerCourt.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/Prefabs/Platforms.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/Prefabs/Platforms/PlatformWalkerDynamicSingleSpeed.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/Prefabs/Platforms/PlatformWalkerDynamicSingleSpeed.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/Prefabs/Platforms/PlatformWalkerDynamicVariableSpeed.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/Prefabs/Platforms/PlatformWalkerDynamicVariableSpeed.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/Prefabs/Ragdoll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/Prefabs/Ragdoll/WalkerRagdollBase.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/Prefabs/Ragdoll/WalkerRagdollBase.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/Prefabs/Ragdoll/WalkerRagdollDySingleSpeedVariant.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/Prefabs/Ragdoll/WalkerRagdollDySingleSpeedVariant.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/Prefabs/Ragdoll/WalkerRagdollDyVariableSpeedVariant.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/Prefabs/Ragdoll/WalkerRagdollDyVariableSpeedVariant.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/Prefabs/Ragdoll/WalkerRagdollStSingleSpeedVariant.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/Prefabs/Ragdoll/WalkerRagdollStSingleSpeedVariant.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/Prefabs/Ragdoll/WalkerRagdollStVariableSpeedVariant.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/Prefabs/Ragdoll/WalkerRagdollStVariableSpeedVariant.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/Scenes/WalkerDynamic.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/Scenes/WalkerDynamic.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/Scenes/WalkerDynamicVariableSpeed.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/Scenes/WalkerDynamicVariableSpeed.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/Scenes/WalkerStatic.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/Scenes/WalkerStatic.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/Scenes/WalkerStaticVariableSpeed.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/Scenes/WalkerStaticVariableSpeed.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/Scripts/WalkerAgent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/Scripts/WalkerAgent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/TFModels.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/TFModels/WalkerDynamic.nn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/TFModels/WalkerDynamic.nn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/TFModels/WalkerDynamicVariableSpeed.nn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/TFModels/WalkerDynamicVariableSpeed.nn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/TFModels/WalkerStatic.nn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/TFModels/WalkerStatic.nn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/TFModels/WalkerStaticVariableSpeed.nn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/TFModels/WalkerStaticVariableSpeed.nn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/Materials/TransparentWall.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/Materials/TransparentWall.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/Materials/WallJumpCourt.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/Materials/WallJumpCourt.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/Materials/WallJumpCourtFail.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/Materials/WallJumpCourtFail.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/Materials/WallJumpCourtSuccess.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/Materials/WallJumpCourtSuccess.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/Materials/WallJumpSky.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/Materials/WallJumpSky.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/Materials/spawnVolumeMaterial.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/Materials/spawnVolumeMaterial.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/Meshes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/Meshes/GoalArea.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/Meshes/GoalArea.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/Meshes/ShortBlock.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/Meshes/ShortBlock.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/Prefabs/WallJumpArea.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/Prefabs/WallJumpArea.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/Scenes/WallJump.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/Scenes/WallJump.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/Scripts/WallJumpAgent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/Scripts/WallJumpAgent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/Scripts/WallJumpSettings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/Scripts/WallJumpSettings.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/TFModels.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/TFModels/BigWallJump.nn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/TFModels/BigWallJump.nn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/TFModels/SmallWallJump.nn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/TFModels/SmallWallJump.nn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Worm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Worm/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Worm/Prefabs/PlatformWormDynamicTarget.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Worm/Prefabs/PlatformWormDynamicTarget.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Worm/Prefabs/WormBasePrefab.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Worm/Prefabs/WormBasePrefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Worm/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Worm/Scenes/WormDynamicTarget.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Worm/Scenes/WormDynamicTarget.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Worm/Scenes/WormStaticTarget.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Worm/Scenes/WormStaticTarget.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Worm/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Worm/Scripts/WormAgent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Worm/Scripts/WormAgent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Worm/TFModels.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Worm/TFModels/WormDynamic.nn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Worm/TFModels/WormDynamic.nn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Worm/TFModels/WormStatic.nn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Worm/TFModels/WormStatic.nn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Timers.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Timers.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Timers/3DBall_timers.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Timers/3DBall_timers.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/requirements.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +728,16 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ml-agents@1.4.0-preview/Runtime/Agent.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/Scripts/Ball3DAgent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Follow.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Follow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Checkpoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RacerAgent.cs" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1ikObnPZ61gsRgeqsmGIgA6CC10" />
   <component name="ProjectViewState">
@@ -43,6 +749,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys_rider" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -72,7 +779,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602448199767</updated>
-      <workItem from="1602448211138" duration="2309000" />
+      <workItem from="1602448211138" duration="3155000" />
+      <workItem from="1603123648209" duration="60000" />
+      <workItem from="1603489237946" duration="1933000" />
+      <workItem from="1603662042698" duration="2249000" />
+      <workItem from="1604172062593" duration="7185000" />
+      <workItem from="1604259853958" duration="2054000" />
+      <workItem from="1604335759225" duration="3214000" />
+      <workItem from="1604422712910" duration="1862000" />
     </task>
     <task id="LOCAL-00001" summary="Add git specific files.">
       <created>1602448426146</created>
@@ -88,7 +802,42 @@
       <option name="project" value="LOCAL" />
       <updated>1602448474598</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add venv requirements.">
+      <created>1602452060129</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602452060129</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add workspace xml stuff.">
+      <created>1602452133755</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602452133755</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add ML-agents assets.">
+      <created>1602452160472</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602452160472</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Exclude the venv.">
+      <created>1602452203145</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602452203145</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add ML-agents.">
+      <created>1602452330722</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1602452330722</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,18 +855,37 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Add git specific files." />
     <MESSAGE value="Initial commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit." />
+    <MESSAGE value="Add venv requirements." />
+    <MESSAGE value="Add workspace xml stuff." />
+    <MESSAGE value="Add ML-agents assets." />
+    <MESSAGE value="Exclude the venv." />
+    <MESSAGE value="Add ML-agents." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add ML-agents." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="583" y="333" key="Vcs.Push.Dialog.v2" timestamp="1602448514616">
+    <state x="1192" y="239" key="RiderGenerateDialog" timestamp="1603663841569">
       <screen x="62" y="0" width="1858" height="1200" />
     </state>
+    <state x="1192" y="239" key="RiderGenerateDialog/62.0.1858.1200/1920.0.1920.1200@62.0.1858.1200" timestamp="1603663841569" />
+    <state x="2381" y="245" key="SettingsEditor" timestamp="1604174010108">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state x="2381" y="245" key="SettingsEditor/62.0.1858.1200/1920.0.1920.1200@1920.0.1920.1200" timestamp="1604174010108" />
+    <state x="2458" y="333" key="Vcs.Push.Dialog.v2" timestamp="1602452340409">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state x="2458" y="333" key="Vcs.Push.Dialog.v2/62.0.1858.1200/1920.0.1920.1200@1920.0.1920.1200" timestamp="1602452340409" />
     <state x="583" y="333" key="Vcs.Push.Dialog.v2/62.0.1858.1200/1920.0.1920.1200@62.0.1858.1200" timestamp="1602448514616" />
+    <state x="2736" y="335" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1603123679490">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state x="2736" y="335" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/62.0.1858.1200/1920.0.1920.1200@1920.0.1920.1200" timestamp="1603123679490" />
     <state x="808" y="514" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602448585144">
       <screen x="62" y="0" width="1858" height="1200" />
     </state>
